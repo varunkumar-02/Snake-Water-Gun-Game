@@ -6,11 +6,7 @@ Computer = random.choice([-1, 0, 1])
 gameDict = {1: "Water", -1: "Snake", 0: "Gun"}
 
 # Show the user the options they can choose from
-print(
-    """
-choose one : \nS for snake\nW for water\nG for Gun
-"""
-)
+print("choose one : \nS for snake\nW for water\nG for Gun")
 
 # Take input from user
 user = input("Enter your choice : ")
@@ -39,3 +35,4 @@ else:
         print("You lose!")
     else:
         print("something wrong.")
+
